@@ -8,7 +8,7 @@ async def get_users_collection():
     from db import init_db
     return init_db()["users_collection"]
 
-@router.get("/") # post to get changed by divy
+@router.get("/users") # post to get changed by divy # Changed / to /users
 async def get_users():
     collection = await get_users_collection()
     users = []
@@ -18,6 +18,7 @@ async def get_users():
     return users
 
 # whats ur favorite genre of music ??? mine is EDM
+# Mine is Pop
 @router.post("/")
 async def create_user(user: User):
     collection = await get_users_collection()
