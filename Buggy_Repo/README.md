@@ -57,12 +57,12 @@
 | 14 | | | |
 | 15 | | | |
 | 16 | | | |
-| 17 | | | |
-| 18 | | | |
-| 19 | | | |
-| 20 | app.include_router(users_router, prefix="/users") | Divya | Divya |
-| 21 | In main.py - from routes.users import router as users_router | Divya | Divya |
-| 22 | Function get_question: randoming question | Divya | Divya |
+| 17 | Fix: users.py - updating deleteAll to deleteOne in delete function| Divya | Divya |
+| 18 | Fix: profile.js - assigning BaseUrl | Divya | Divya |
+| 19 | Fix: profile.html - updating script file src | Divya | Divya |
+| 20 | Fix: main.py - app.include_router(users_router, prefix="/users") | Divya | Divya |
+| 21 | Fix: main.py - from routes.users import router as users_router | Divya | Divya |
+| 22 | Fix: quiz.py Function get_question: randoming question | Divya | Divya |
 | 23 | Fix: quiz.py function submit_answer: get to post | Divya | Divya |
 | 24 | Fix: users.py -> line 11 get method --> router.get | Divya | Divya |
 | 25 | | | |
