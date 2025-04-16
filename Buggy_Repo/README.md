@@ -54,9 +54,9 @@
 | 11 | | | |
 | 12 | | | |
 | 13 | | | |
-| 14 | | | |
-| 15 | | | |
-| 16 | | | |
+| 14 | analytics.js Changed BASEURL from 8001 to 8000| Meet | Meet |
+| 15 | analytics.py, names to name, usernames to username| Meet | Meet |
+| 16 | analytics.py, users = [] #Removed A1, B2, C3 | Meet | Meet |
 | 17 | Fix: users.py - updating deleteAll to deleteOne in delete function| Divya | Divya |
 | 18 | Fix: profile.js - assigning BaseUrl | Divya | Divya |
 | 19 | Fix: profile.html - updating script file src | Divya | Divya |
