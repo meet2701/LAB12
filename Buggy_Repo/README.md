@@ -65,7 +65,7 @@
 | 22 | Fix: quiz.py Function get_question: randoming question | Divya | Divya |
 | 23 | Fix: quiz.py function submit_answer: get to post | Divya | Divya |
 | 24 | Fix: users.py -> line 11 get method --> router.get | Divya | Divya |
-| 25 | | | |
+| 25 | Had to fix dependencies so i made new environment with correct python versions and redownloaded all the modules/libraries| Meet |Meet |
 | 26 | news.js, Added 2 eventlisteners for search and dropdown | Meet | Meet |
 | 27 | models.py, classItem(BaseModel) | Meet | Meet |
 | 28 | items.py, router = APIrouter() | Meet | Meet |
