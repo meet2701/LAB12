@@ -37,52 +37,37 @@
 
 ### Table to keep track
 
-| ID  | Issue Description                        | Identified By | Fixed By     |
-|-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  |     Whole team|   Dhyey      |
-| 2   |  modified items.html                     |Ayush          |Ayush         |
-| 3   |  Unnecessary file : home.js              |Dhyey          |Dhyey         |
-| 4   |  added quiz.html in index                |Ayush          |Ayush         |
-| 5   |  changed id in items.js                  |Dhyey          |Dhyey         |
-| 6   |  added navbar in every file              |Ayush          |Ayush         |
-| 7   | Fix : There's a mismatch between         |Ayush          |Ayush         |
-|     |  element IDs -"userCounts" in HTML       |               |              |
-|     | vs "userCount" in JS                     |               |              |
-| 8   |Fix : missing baseURL variable definition |Dhyey          |Dhyey         |
-| 9   | Incorrect HTTP method for delete         |Ayush          |Ayus          |
-|     | operation (using PATCH instead of DELETE)|               |              | 
-|     |                                          |               |              |
-| 10  |Inconsistent API endpoint paths           |Dhyey          |Dhyey         |
-|     |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |app.include_router(users_router, prefix="/    
-       users")                                   |Divya          |Divya         |
+# Bug Tracking Table
 
-
-| 21  |in main.py - from routes.users import 
-       router as  users_router                   |Divya          |Divya         |
-
-
-| 22  |  fucntion get_question: randoming    
-         question                                |Divya          |Divya         |
-
-| 23  | fix : quiz.py funcition submit_answer :
-       get to post                               |Divya          |Divya         |
-
-| 24  |Fix : users.py -> line 11 get mathod      |Divya          |Divya         
-         --> router.get
-| 25  |                                          |               |              |
-| 26  |news.js, Added 2 eventlisteners for search|Meet           |Meet          |
-                and Dropdown                     |               |              |
-| 27  |models.py, classItem(BaseModel)           |Meet           |Meet          |
-| 28  |items.py, router = APIrouter()            |Meet           |Meet          |
-| 29  |main.py, Fixed prefix for analytics,quiz  |Meet           |Meet          |
-| 30  |main.py, Added CORS Middleware            |Meet           |Meet          |
+| ID | Issue Description | Identified By | Fixed By |
+|----|------------------|--------------|----------|
+| 1 | Style.css is not filled | Whole team | Dhyey |
+| 2 | Modified items.html | Ayush | Ayush |
+| 3 | Unnecessary file: home.js | Dhyey | Dhyey |
+| 4 | Added quiz.html in index | Ayush | Ayush |
+| 5 | Changed id in items.js | Dhyey | Dhyey |
+| 6 | Added navbar in every file | Ayush | Ayush |
+| 7 | Fix: There's a mismatch between element IDs - "userCounts" in HTML vs "userCount" in JS | Ayush | Ayush |
+| 8 | Fix: Missing baseURL variable definition | Dhyey | Dhyey |
+| 9 | Incorrect HTTP method for delete operation (using PATCH instead of DELETE) | Ayush | Ayush |
+| 10 | Inconsistent API endpoint paths | Dhyey | Dhyey |
+| 11 | | | |
+| 12 | | | |
+| 13 | | | |
+| 14 | | | |
+| 15 | | | |
+| 16 | | | |
+| 17 | | | |
+| 18 | | | |
+| 19 | | | |
+| 20 | app.include_router(users_router, prefix="/users") | Divya | Divya |
+| 21 | In main.py - from routes.users import router as users_router | Divya | Divya |
+| 22 | Function get_question: randoming question | Divya | Divya |
+| 23 | Fix: quiz.py function submit_answer: get to post | Divya | Divya |
+| 24 | Fix: users.py -> line 11 get method --> router.get | Divya | Divya |
+| 25 | | | |
+| 26 | news.js, Added 2 eventlisteners for search and dropdown | Meet | Meet |
+| 27 | models.py, classItem(BaseModel) | Meet | Meet |
+| 28 | items.py, router = APIrouter() | Meet | Meet |
+| 29 | main.py, Fixed prefix for analytics,quiz | Meet | Meet |
+| 30 | main.py, Added CORS Middleware | Meet | Meet |
