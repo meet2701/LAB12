@@ -8,7 +8,7 @@ async def get_users_collection():
     from db import init_db
     return init_db()["users_collection"]
 
-@router.get("/")
+@router.get("/") # post to get changed by divy
 async def get_users():
     collection = await get_users_collection()
     users = []
