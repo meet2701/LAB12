@@ -6,8 +6,9 @@ from routes.quiz import router as quiz_router
 app = FastAPI()
 
 app.include_router(items_router, prefix="/items")
-app.include_router(analytics_router)
-app.include_router(quiz_router)
+app.include_router(analytics_router, prefix="/analytics") # By Meet Added prefix for analytics
+app.include_router(quiz_router, prefix="/quiz") # By meet, router for quiz added
+
 
 # why the hell did I write this function?
 @app.get("/home")
