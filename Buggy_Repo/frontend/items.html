@@ -12,9 +12,20 @@
     <a href="profile.html">Profile</a>
     <a href="analytics.html">Analytics</a>
     <a href="news.html">News</a>
+    <a href="quiz.html">Quiz</a>
   </nav>
-  <!-- fuck I think I deleted a container, god help me-->
-
+  <!-- i have to add a option to add items and its description and a searchbar by which i can find items -->
+  <div class="container">
+    <p id="itemCounts">Total items: 0</p>
+    <input type="text" id="search" placeholder="Search items..." />
+    <h1>📦 Items</h1>
+    <form id="itemForm">
+      <input type="text" id="itemname" placeholder="Itemname" required />
+      <input type="text" id="descrription" placeholder="Description" required />
+      <button type="submit">Add User</button>
+    </form>
+    <ul id="itemList"></ul>
+  </div>
   <script src="scripts/items.js"></script>
 </body>
 </html>

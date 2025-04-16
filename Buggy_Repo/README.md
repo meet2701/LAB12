@@ -35,7 +35,7 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  |  Narain       |  Whole Team  |
+| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
