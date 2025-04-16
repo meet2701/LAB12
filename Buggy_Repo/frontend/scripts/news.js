@@ -62,7 +62,24 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
   } finally {
     loading.style.display = "none";
   }
+  
+
+
 }
 
+
+//Added  2 eventlisteners for dropdown and search in news.js
+
+document.getElementById("source").addEventListener("change", function() {
+  const searchTerm = document.getElementById("search").value;
+  const source = this.value; // "all", "bbc", or "guardian"
+  loadNews(searchTerm, source, true);
+});
+
+document.getElementById("search").addEventListener("input", function() {
+  const searchTerm = this.value;
+  const source = document.getElementById("source").value;
+  loadNews(searchTerm, source, true);
+});
 
 loadNews();

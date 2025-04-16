@@ -30,6 +30,7 @@
 - Divya Padariya : 2024113010
 - Dhyey Thummar : 2024101024
 - Ayush Kanani : 2024101049
+- Divyansh Atri : 2024113001
 
 ### Table to keep track
 
