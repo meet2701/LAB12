@@ -26,13 +26,16 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Meet Parekh : 2024101122
+- Divya Padariya : 2024113010
+- Dhyey Thummar : 2024101024
+- Ayush Kanani : 2024101049
 
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 1   | Style.css is not filled                  |  Narain       |  Whole Team  |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
