@@ -1,2 +1,6 @@
-Aah I was too lazy to implement this
-You can do it
+/* Fix : no code in style.css  */
+nav{
+    background-color: rgb(0, 93, 139);
+    height:50px;
+    
+}
