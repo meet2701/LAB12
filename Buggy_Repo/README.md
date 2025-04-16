@@ -63,11 +63,22 @@
 | 17  |                                          |               |              |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
-| 22  |                                          |               |              |
-| 23  |                                          |               |              |
-| 24  |                                          |               |              |
+| 20  |app.include_router(users_router, prefix="/    
+       users")                                   |Divya          |Divya         |
+
+
+| 21  |in main.py - from routes.users import 
+       router as  users_router                   |Divya          |Divya         |
+
+
+| 22  |  fucntion get_question: randoming    
+         question                                |Divya          |Divya         |
+
+| 23  | fix : quiz.py funcition submit_answer :
+       get to post                               |Divya          |Divya         |
+
+| 24  |Fix : users.py -> line 11 get mathod      |Divya          |Divya         
+         --> router.get
 | 25  |                                          |               |              |
 | 26  |news.js, Added 2 eventlisteners for search|Meet           |Meet          |
                 and Dropdown                     |               |              |
