@@ -4,7 +4,18 @@ from routes.analytics import router as analytics_router
 from routes.quiz import router as quiz_router
 from routes.users import router as users_router # importing users router, done by divya
 
+from fastapi.middleware.cors import CORSMiddleware # By Meet, ADding CORS middleware
+
 app = FastAPI()
+
+# Add CORS middleware # By Meet, adding CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # For development only
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(users_router, prefix="/users") # including users router, done by divya
 app.include_router(items_router, prefix="/items")
