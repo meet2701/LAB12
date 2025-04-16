@@ -44,6 +44,7 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
     
     document.getElementById("articleCount").textContent = `Total articles: ${filteredArticles.length}`;
     // OPINION: Javascript syntax is stupid
+    // Invent SkibidiScript when??
     list.innerHTML = "";
     filteredArticles.forEach(article => {
       const div = document.createElement("div");
