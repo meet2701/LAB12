@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Profiles</title>
+  <title>Bash Quiz</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,18 +15,16 @@
     <a href="quiz.html">Quiz</a>
   </nav>
   <div class="container">
-    <!-- Please suggest some good music, I am tired of my playlist -->
-    <p id="userCounts">Total users: 0</p>
-    <input type="text" id="search" placeholder="Search users..." />
-    <h1>🧑 User Profiles</h1>
-    <form id="userForm">
-      <input type="text" id="username" placeholder="Username" required />
-      <input type="text" id="bio" placeholder="Bio" required />
-      <button type="submit">Add User</button>
-    </form>
-    <ul id="userList"></ul>
+    <h1>🧠 Bash Quiz</h1>
+    <p id="scoreDisplay">Score: 0 | High Score: 0</p>
+    <div id="question">Loading question...</div>
+    <form id="answerForm"></form>
+    <p id="feedback"></p>
+    <button id="resetBtn" class="hidden">Reset Quiz</button>
+    <input type="text" id="search" placeholder="Search attempts..." />
+    <p id="attemptCount">Total attempts: 0</p>
+    <div id="attemptList" class="attempt-scrollable"></div>
   </div>
-
-  <script src="styles/profile.js"></script>
+  <script src="scripts/quiz.js"></script>
 </body>
 </html>
