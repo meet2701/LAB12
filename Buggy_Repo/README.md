@@ -36,15 +36,19 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
+| 1   | Style.css is not filled                  |     Whole team|   Dhyey      |
+| 2   |  modified items.html                     |Ayush          |Ayush         |
+| 3   |  Unnecessary file : home.js              |Dhyey          |Dhyey         |
+| 4   |  added quiz.html in index                |Ayush          |Ayush         |
+| 5   |  changed id in items.js                  |Dhyey          |Dhyey         |
+| 6   |  added navbar in every file              |Ayush          |Ayush         |
+| 7   | Fix : There's a mismatch between         |Ayush          |Ayush         |
+|     |  element IDs -"userCounts" in HTML       |               |              |
+|     | vs "userCount" in JS                     |               |              |
+| 8   |Fix : missing baseURL variable definition |Dhyey          |Dhyey         |
+| 9   | Incorrect HTTP method for delete         |               |              |
+|     | operation (using PATCH instead of DELETE)|               |              | 
+|     |                                          |               |              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |

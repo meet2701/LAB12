@@ -1,5 +1,5 @@
 // Define baseURL if needed - assuming the API is on the same server
-const baseURL = '';
+const baseURL = 'http://localhost:8000'; // adding baseURL by divya
 
 async function loadUsers() {
   try {
