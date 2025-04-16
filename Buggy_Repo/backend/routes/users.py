@@ -18,7 +18,7 @@ async def get_users():
     return users
 
 # whats ur favorite genre of music ??? mine is EDM
-# Mine is Pop
+# Mine is Pop 
 @router.post("/")
 async def create_user(user: User):
     collection = await get_users_collection()

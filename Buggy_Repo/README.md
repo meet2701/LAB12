@@ -36,7 +36,7 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 1   | Style.css is not filled                  |         Narain |     Whole Team     |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
@@ -61,8 +61,9 @@
 | 23  |                                          |               |              |
 | 24  |                                          |               |              |
 | 25  |                                          |               |              |
-| 26  |                                          |               |              |
-| 27  |                                          |               |              |
-| 28  |                                          |               |              |
-| 29  |                                          |               |              |
-| 30  |                                          |               |              |
+| 26  |news.js, Added 2 eventlisteners for search|Meet           |Meet          |
+                and Dropdown                     |               |              |
+| 27  |models.py, classItem(BaseModel)           |Meet           |Meet          |
+| 28  |items.py, router = APIrouter()            |Meet           |Meet          |
+| 29  |main.py, Fixed prefix for analytics,quiz  |Meet           |Meet          |
+| 30  |main.py, Added CORS Middleware            |Meet           |Meet          |

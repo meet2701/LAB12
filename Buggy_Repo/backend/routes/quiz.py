@@ -3,7 +3,7 @@ import random
 
 router = APIRouter(tags=["quiz"])
 
-# I actually could have added this to a collection in mongodb
+# I actually could have added this to a collection in mongodb # but you are lazy?
 questions = [
     {
         "id": 1,
@@ -38,7 +38,7 @@ questions = [
 ]
 
 game_state = {"high_score": 0}
-# god would hate me for not dockerizing this repo
+# god would hate me for not dockerizing this repo # IDk what docker is /cries/
 @router.get("/question")
 async def get_question():
     question = random.choice(questions) # by divya, before : question = question[1], after : question = random.choice(question )

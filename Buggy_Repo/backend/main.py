@@ -23,7 +23,7 @@ app.include_router(analytics_router, prefix="/analytics") # By Meet Added prefix
 app.include_router(quiz_router, prefix="/quiz") # By meet, router for quiz added
 
 
-# why the hell did I write this function?
+# why the hell did I write this function? #Thank you sir it helped to debug localhost
 @app.get("/home")
 async def get_home():
     return {"message": "Welcome to the Multi-Page FastAPI App!"}

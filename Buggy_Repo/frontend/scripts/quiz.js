@@ -37,6 +37,8 @@ function updateAttempts() {
 
 searchInput.addEventListener("input", updateAttempts);
 // how is life ?
+// Sir life is Good, Thanks for asking
+// I hope your life is good as well
 async function loadHighScore() {
   try {
     const res = await fetch(`${BASE_URL}/quiz/highscore`);

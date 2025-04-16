@@ -26,7 +26,7 @@ async def create_item(item: Item):
 @router.post("/")
 async def create_item(item: Item):
     return {"id": "Item Inserted"}
-# I want a chocolate
+# I want a chocolate # Give me a chocolate too 
 @router.delete("/{item_id}/{item_details}")
 async def delete_item(item_id: str, item_details:str):
     collection = await get_items_collection()

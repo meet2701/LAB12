@@ -9,3 +9,4 @@ class User(BaseModel):
     bio: str
     
     # You can raise your hands and give the answer to the chocolate question
+    # sir i am too shy to answer

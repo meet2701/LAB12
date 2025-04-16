@@ -25,7 +25,7 @@ async def get_analytics():
     items = []
     async for item in items_collection.find():
         items.append(item)
-    # damm this is the last lab
+    # damm this is the last lab # sed lyf #but yeah, ISS TAs best, TYSM sir for teaching a lot
     users = ["A1","B2","C3"]
     async for user in users_collection.find():
         users.append(user)
@@ -58,6 +58,7 @@ async def get_analytics():
     plt.ylabel("Frequency")
     plt.legend()
     # Chocolate Question: Is there a modern alternative to REST that avoids over-fetching and under-fetching of data?
+    # GraphQL ?? is it underrated??
     
     buffer = io.BytesIO()
     plt.savefig(buffer, format="png")
