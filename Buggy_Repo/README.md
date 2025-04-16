@@ -32,8 +32,9 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
+| 1   | Style.css is not filled                  |  Narain       |Whole Team    |
+| 2   | Added functionality to add and search    |               |              |
+|     | items in index.html                      |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
