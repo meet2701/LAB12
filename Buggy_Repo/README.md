@@ -46,10 +46,11 @@
 |     |  element IDs -"userCounts" in HTML       |               |              |
 |     | vs "userCount" in JS                     |               |              |
 | 8   |Fix : missing baseURL variable definition |Dhyey          |Dhyey         |
-| 9   | Incorrect HTTP method for delete         |               |              |
+| 9   | Incorrect HTTP method for delete         |Ayush          |Ayus          |
 |     | operation (using PATCH instead of DELETE)|               |              | 
 |     |                                          |               |              |
-| 10  |                                          |               |              |
+| 10  |Inconsistent API endpoint paths           |Dhyey          |Dhyey         |
+|     |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
